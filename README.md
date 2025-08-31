@@ -1,50 +1,91 @@
-Python Data Explorer
-📖 Overview
-Python Data Explorer is a simple yet powerful command-line tool designed to perform a preliminary Exploratory Data Analysis (EDA) on any given CSV dataset. The primary goal of this project is to automate the initial steps of data analysis, providing a quick overview of the dataset's structure, statistical properties, and relationships between variables.
+<div align="center">
+<img src="https://www.google.com/search?q=https://storage.googleapis.com/maker-media-tool-store/f964a2cd-db64-44b2-a447-e6f75354508e" alt="Project Banner">
+<h1 align="center">Python Data Explorer</h1>
+<strong>An automated command-line tool for Exploratory Data Analysis (EDA) on CSV files.</strong>
+</div>
 
-This project was developed as a key component of my personal portfolio as I transition my career into the fields of Artificial Intelligence and Data Science. It serves as a practical application of foundational Python skills for data manipulation and visualization.
+<div align="center">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3.9%252B-blue%3Fstyle%3Dfor-the-badge%26logo%3Dpython" alt="Python Version">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Pandas-Library-green%3Fstyle%3Dfor-the-badge%26logo%3Dpandas" alt="Pandas">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Seaborn-Library-orange%3Fstyle%3Dfor-the-badge%26logo%3Dseaborn" alt="Seaborn">
+</div>
 
-✨ Features
-Data Loading: Securely loads data from a user-specified CSV file path.
+<br>
 
-Basic Information: Displays the dataset's shape (rows and columns), the first 5 rows (.head()), and a summary of data types for each column (.info()).
+<p align="center">
+<a href="#-about-the-project">About</a> •
+<a href="#-key-features">Features</a> •
+<a href="#-getting-started">Getting Started</a> •
+<a href="#-usage-example">Usage</a>
+</p>
 
-Summary Statistics: Generates descriptive statistics for all numerical columns (.describe()), including count, mean, standard deviation, and quartiles.
+🚀 About The Project
+Welcome to the Python Data Explorer! This tool was developed as a key portfolio project to showcase foundational data science skills. It addresses a common and crucial task for any data professional: performing an initial Exploratory Data Analysis (EDA).
 
-Automated Visualizations: Automatically generates and saves key visualizations to a new analysis_plots directory:
+Instead of manually writing the same code to inspect every new dataset, this script automates the process, providing a comprehensive overview of any CSV file in seconds. It's a practical demonstration of leveraging Python for efficiency and data-driven insights.
 
-A correlation heatmap for all numerical features to visualize relationships.
+<br>
+<div align="center">
+<img src="https://www.google.com/search?q=https://storage.googleapis.com/maker-media-tool-store/b02863a3-a0e2-4148-8e62-c0c29f270258" alt="Demonstration GIF">
+</div>
+<br>
 
-Histograms for each numerical column to understand their distributions.
+✨ Key Features
+Automated EDA: Runs a full preliminary analysis with a single command.
 
-Count plots for categorical columns (with low cardinality) to show frequency distributions.
+Key Insights: Provides instant information on shape, data types, and missing values.
 
-🛠️ Technologies Used
-Language: Python 3
+Statistical Summary: Automatically calculates descriptive statistics for all numerical columns.
 
-Core Libraries:
+Smart Visualizations: Generates and saves essential plots to a dedicated folder:
 
-Pandas: For data loading, manipulation, and analysis.
+Correlation Heatmap to identify relationships.
 
-Matplotlib: For creating static, animated, and interactive visualizations.
+Histograms to view data distribution.
 
-Seaborn: For making attractive and informative statistical graphics.
+Count Plots for categorical data.
 
-🚀 How to Run
-Clone the repository:
+🛠️ Built With
+This project was built using the core libraries of the Python Data Science ecosystem:
+
+Python
+
+Pandas
+
+Matplotlib
+
+Seaborn
+
+🏁 Getting Started
+To get a local copy up and running, follow these simple steps.
+
+Prerequisites
+Make sure you have Python 3 installed on your system.
+
+Installation
+Clone the repository to your local machine:
 
 git clone [https://github.com/it-warny/python-data-explorer.git](https://github.com/it-warny/python-data-explorer.git)
+
+Navigate to the project directory:
+
 cd python-data-explorer
 
-Install dependencies:
-Make sure you have Python 3 installed. Then, install the required libraries using the requirements.txt file.
+Install the required packages:
 
 pip install -r requirements.txt
 
-Execute the script:
-Run the script from your terminal.
+kullanım Usage Example
+Run the script from your terminal:
 
 python data_explorer.py
 
-Follow the prompts:
-The script will ask you to provide the full path to the CSV file you wish to analyze. Once provided, the analysis will run, and the generated plots will be saved in the analysis_plots folder.
+When prompted, enter the full path to the CSV file you want to analyze.
+
+The script will print the analysis directly to your terminal and save the generated graphs in a new analysis_plots folder in the same directory.
+
+<br>
+
+<p align="center">
+Developed by <a href="https://www.google.com/search?q=https://www.linkedin.com/in/it-warny/">Warny Palhares</a>
+</p>
