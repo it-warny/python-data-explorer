@@ -1,3 +1,4 @@
+# Project: Python Data Explorer - v1.0
 # Python Data Explorer
 # Author: Warny Palhares
 #
