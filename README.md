@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3.9%252B-blue%3Fstyle%3Dfor-the-badge%26logo%3Dpython" alt="Python Version">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3.9%2B-blue%3Fstyle%3Dfor-the-badge%26logo%3Dpython" alt="Python Version">
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Pandas-Library-green%3Fstyle%3Dfor-the-badge%26logo%3Dpandas" alt="Pandas">
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Seaborn-Library-orange%3Fstyle%3Dfor-the-badge%26logo%3Dseaborn" alt="Seaborn">
 </div>
@@ -75,7 +75,7 @@ Install the required packages:
 
 pip install -r requirements.txt
 
-kullanım Usage Example
+💻 Usage Example
 Run the script from your terminal:
 
 python data_explorer.py
